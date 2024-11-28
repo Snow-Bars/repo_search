@@ -1,0 +1,1578 @@
+[
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-10.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-10.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-11.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-11.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-12.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-12.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-5.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-5.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-6.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-6.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-8.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-9xxx-2.26.02.014-8.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-10.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-10.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-11.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-11.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-12.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-12.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-5.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-5.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-6.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-6.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-8.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-sas-3.26.02.000-8.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-10.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-10.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-6.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-6.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-7.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-7.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-2.26.02.003-9.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-3w-xxxx-2.26.02.003-9.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-9.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-aacraid-1.2.1-9.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.40.00.05-20180309.6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.40.00.05-20180309.6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.02-20200819.2.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.50.00.02-20200819.2.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.02-20200819.3.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.50.00.02-20200819.3.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.02-20200819.4.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-arcmsr-1.50.00.02-20200819.4.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-forcedeth-0.0-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-forcedeth-0.0-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-1.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-1.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-9.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-hpsa-3.4.20-9.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_mthca-1.0.20080404-1.1.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_mthca-1.0.20080404-1.1.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-0.0-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-0.0-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-0.0.1-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-0.0.1-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-0.0.1-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-0.0.1-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-1.11-1.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-1.11-1.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-1.11-2.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-1.11-2.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-1.11-4.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-1.11-4.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-1.11-5.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-ib_qib-1.11-5.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-10.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-10.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-12.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-12.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-13.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-13.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-14.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-14.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-8.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-8.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-9.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-isci-1.2.0-9.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-10.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-10.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-9.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_mbox-2.20.5.1-9.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.707.50.00-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.707.50.00-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.707.51.00-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.707.51.00-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.710.50.00-1.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.710.50.00-1.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.714.04.00-1.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.714.04.00-1.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.714.04.00-3.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.714.04.00-3.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.717.02.00-1.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.717.02.00-1.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.719.03.00-1.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.719.03.00-1.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.719.03.00-3.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.719.03.00-3.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.725.01.00-1.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.725.01.00-1.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.727.03.00-1.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-megaraid_sas-07.727.03.00-1.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-10.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-10.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-11.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-11.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-12.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-12.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mlx4-4.0-8.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mlx4-4.0-8.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-27.101.00.00-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-27.101.00.00-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-28.100.00.00-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-28.100.00.00-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-28.100.00.00-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-28.100.00.00-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-34.100.00.00-1.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-34.100.00.00-1.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-35.101.00.00-1.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-35.101.00.00-1.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-37.101.00.00-1.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-37.101.00.00-1.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-39.100.00.00-1.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-39.100.00.00-1.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-42.100.00.00-1.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-42.100.00.00-1.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-43.100.00.00-1.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-43.100.00.00-1.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-43.100.00.00-2.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mpt3sas-43.100.00.00-2.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-6.el8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-6.el8.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptfc-3.04.20-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-10.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-10.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-8.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-8.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-9.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptsas-3.04.20-9.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-6.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-6.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mptspi-3.04.20-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-3.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-3.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-4.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-4.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-5.el8_5.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-5.el8_5.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-6.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-6.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-7.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-7.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-8.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-mvsas-0.8.16-8.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata+sata_via.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata%2Bsata_via.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-6.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-6.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-7.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-7.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-8.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-8.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-9.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_amd-0.4.1-9.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-1.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-1.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-2.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-2.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-3.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-3.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-4.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-4.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-5.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-5.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-6.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_atiixp-0.4.6-6.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-1.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-1.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-2.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-2.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-3.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-3.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-4.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-4.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-5.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-5.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-6.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_jmicron-0.1.5-6.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc2027x-1.0-1.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc2027x-1.0-1.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc2027x-1.0-2.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc2027x-1.0-2.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc2027x-1.0-3.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc2027x-1.0-3.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc202xx_old-0.4.3-1.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc202xx_old-0.4.3-1.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc202xx_old-0.4.3-2.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc202xx_old-0.4.3-2.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc202xx_old-0.4.3-3.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_pdc202xx_old-0.4.3-3.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-6.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-6.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-7.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-7.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-8.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-8.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-9.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_sis-0.5.2-9.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-1.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-1.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-2.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-2.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-3.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-3.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-4.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-4.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-5.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-5.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-6.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-6.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-7.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-7.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-8.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pata_via-0.3.4-8.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-pcnet32-0.0-1.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pcnet32-0.0-1.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-pcnet32-0.0-2.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-pcnet32-0.0-2.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.08.200-1.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-qla2xxx-10.02.08.200-1.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.09.100-1.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-qla2xxx-10.02.09.100-1.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.09.100-2.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-qla2xxx-10.02.09.100-2.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-2.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_mv-1.28-2.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-3.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_mv-1.28-3.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-4.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_mv-1.28-4.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-5.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_mv-1.28-5.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-6.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_mv-1.28-6.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-10.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-10.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-3.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-3.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-4.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-4.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-5.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-5.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-6.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-6.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-8.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-8.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-9.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_nv-3.5-9.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_promise-2.12-1.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_promise-2.12-1.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_promise-2.12-2.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_promise-2.12-2.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_promise-2.12-3.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_promise-2.12-3.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-10.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-10.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-11.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-11.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-5.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-5.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-6.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-6.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-7.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-7.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-9.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil-2.4-9.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-0.0-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-0.0-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-1.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-1.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-2.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-2.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-3.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-3.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-4.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-4.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-5.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-5.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-7.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-7.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-8.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-8.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-9.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sil24-1.1-9.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-0.5.2-1.el8_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-0.5.2-1.el8_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-11.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-11.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-12.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-12.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-13.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-13.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-2.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-2.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-3.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-3.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-4.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-4.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-6.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-6.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-7.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-7.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-8.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_sis-1.0-8.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-1.el8_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-1.el8_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-2.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-2.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-3.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-3.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-4.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-4.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-5.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-5.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-6.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-6.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-7.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-7.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-8.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-8.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-9.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_uli-1.3-9.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-1.el8_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-1.el8_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-2.el8_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-2.el8_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-3.el8_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-3.el8_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-4.el8_6.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-4.el8_6.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-5.el8_7.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-5.el8_7.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-6.el8_8.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-6.el8_8.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-7.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-7.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-8.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sata_via-2.6-8.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-sym53c8xx-0.0-1.el8_9.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sym53c8xx-0.0-1.el8_9.elrepo.iso"
+    },
+    {
+        "name": "dd-sym53c8xx-0.0-2.el8_10.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el8/x86_64/dd-sym53c8xx-0.0-2.el8_10.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-9xxx-2.26.02.014-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-9xxx-2.26.02.014-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-9xxx-2.26.02.014-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-9xxx-2.26.02.014-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-9xxx-2.26.02.014-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-9xxx-2.26.02.014-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-sas-3.26.02.000-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-sas-3.26.02.000-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-sas-3.26.02.000-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-sas-3.26.02.000-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-sas-3.26.02.000-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-sas-3.26.02.000-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-1.26.02.003-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-xxxx-1.26.02.003-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-1.26.02.003-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-xxxx-1.26.02.003-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-1.26.02.003-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-xxxx-1.26.02.003-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-1.26.02.003-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-xxxx-1.26.02.003-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-3w-xxxx-1.26.02.003-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-3w-xxxx-1.26.02.003-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aacraid-1.2.1-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aacraid-1.2.1-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-4.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aacraid-1.2.1-4.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-5.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aacraid-1.2.1-5.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-aacraid-1.2.1-8.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aacraid-1.2.1-8.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-aic79xx-3.0-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aic79xx-3.0-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-aic79xx-3.0-3.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aic79xx-3.0-3.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-aic7xxx-7.0-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aic7xxx-7.0-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-aic7xxx-7.0-3.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-aic7xxx-7.0-3.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.05-20210429.1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-arcmsr-1.50.00.05-20210429.1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.05-20210429.2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-arcmsr-1.50.00.05-20210429.2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.05-20210429.3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-arcmsr-1.50.00.05-20210429.3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.05-20210429.4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-arcmsr-1.50.00.05-20210429.4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-arcmsr-1.50.00.05-20210429.7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-arcmsr-1.50.00.05-20210429.7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-be2net-12.0.0.0-15.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-be2net-12.0.0.0-15.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-esas2r-1.00-1.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-esas2r-1.00-1.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-13.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-hpsa-3.4.20-13.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-7.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-hpsa-3.4.20-7.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-8.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-hpsa-3.4.20-8.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-9.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-hpsa-3.4.20-9.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-hpsa-3.4.20-9.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-hpsa-3.4.20-9.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_mthca-1.0.20080404-1.1.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-ib_mthca-1.0.20080404-1.1.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-ib_qib-1.11-11.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-ib_qib-1.11-11.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-isci-1.2.0-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-isci-1.2.0-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-isci-1.2.0-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-isci-1.2.0-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-isci-1.2.0-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-isci-1.2.0-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_mbox-2.20.5.1-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_mbox-2.20.5.1-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_mbox-2.20.5.1-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_mbox-2.20.5.1-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_mbox-2.20.5.1-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_mbox-2.20.5.1-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.719.03.00-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_sas-07.719.03.00-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.719.03.00-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_sas-07.719.03.00-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.719.03.00-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_sas-07.719.03.00-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.725.01.00-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_sas-07.725.01.00-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-megaraid_sas-07.727.03.00-1.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-megaraid_sas-07.727.03.00-1.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-39.100.00.00-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mpt3sas-39.100.00.00-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-40.100.00.00-1.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mpt3sas-40.100.00.00-1.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-43.100.00.00-1.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mpt3sas-43.100.00.00-1.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-43.100.00.00-2.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mpt3sas-43.100.00.00-2.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mpt3sas-43.100.00.00-5.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mpt3sas-43.100.00.00-5.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mptfc-3.04.20-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptfc-3.04.20-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptsas-3.04.20-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptsas-3.04.20-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-4.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptsas-3.04.20-4.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-5.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptsas-3.04.20-5.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mptsas-3.04.20-8.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptsas-3.04.20-8.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-mptspi-3.04.20-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mptspi-3.04.20-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mvsas-0.8.16-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mvsas-0.8.16-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mvsas-0.8.16-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mvsas-0.8.16-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-mvsas-0.8.16-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-mvsas-0.8.16-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_amd-0.4.1-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_amd-0.4.1-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_amd-0.4.1-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_amd-0.4.1-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_amd-0.4.1-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_amd-0.4.1-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_atiixp-0.4.6-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_atiixp-0.4.6-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_atiixp-0.4.6-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_atiixp-0.4.6-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_atiixp-0.4.6-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_atiixp-0.4.6-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_jmicron-0.1.5-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_jmicron-0.1.5-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_jmicron-0.1.5-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_jmicron-0.1.5-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_jmicron-0.1.5-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_jmicron-0.1.5-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc2027x-1.0-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_pdc2027x-1.0-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc2027x-1.0-4.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_pdc2027x-1.0-4.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc202xx_old-0.4.3-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_pdc202xx_old-0.4.3-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_pdc202xx_old-0.4.3-3.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_pdc202xx_old-0.4.3-3.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_sis-0.5.2-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_sis-0.5.2-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_sis-0.5.2-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_sis-0.5.2-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_sis-0.5.2-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_sis-0.5.2-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_via-0.3.4-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_via-0.3.4-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_via-0.3.4-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_via-0.3.4-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-pata_via-0.3.4-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-pata_via-0.3.4-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.00.106-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.00.106-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.07.400-1.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.07.400-1.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.07.900-1.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.07.900-1.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.08.200-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.08.200-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.08.200-4.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.08.200-4.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-qla2xxx-10.02.09.100-2.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-qla2xxx-10.02.09.100-2.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-rr64xl-1.5.6-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-rr64xl-1.5.6-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-rr64xl-1.5.6-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-rr64xl-1.5.6-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-rr64xl-1.5.6-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-rr64xl-1.5.6-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-rr64xl-1.5.8-1.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-rr64xl-1.5.8-1.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_mv-1.28-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_mv-1.28-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_mv-1.28-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_mv-1.28-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_mv-1.28-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_mv-1.28-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_nv-3.5-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_nv-3.5-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_nv-3.5-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_nv-3.5-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_nv-3.5-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_nv-3.5-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_promise-2.12-1.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_promise-2.12-1.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_promise-2.12-4.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_promise-2.12-4.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil-2.4-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil-2.4-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil-2.4-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil-2.4-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil-2.4-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil-2.4-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil24-1.1-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil24-1.1-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil24-1.1-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil24-1.1-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sil24-1.1-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sil24-1.1-7.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-5.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sis-1.0-5.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_sis-1.0-8.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_sis-1.0-8.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_uli-1.3-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_uli-1.3-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_uli-1.3-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_uli-1.3-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_uli-1.3-6.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_uli-1.3-6.el9_4.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-1.el9_0.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_via-2.6-1.el9_0.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-2.el9_1.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_via-2.6-2.el9_1.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-3.el9_2.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_via-2.6-3.el9_2.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-4.el9_3.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_via-2.6-4.el9_3.elrepo.iso"
+    },
+    {
+        "name": "dd-sata_via-2.6-7.el9_4.elrepo.iso",
+        "url": "https://mirror.yandex.ru/elrepo/dud/el9/x86_64/dd-sata_via-2.6-7.el9_4.elrepo.iso"
+    }
+]

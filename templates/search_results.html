@@ -1,0 +1,20 @@
+{% extends 'header_base.html' %}
+
+{% block title %}
+    Результат поиска
+{% endblock %}
+
+{% block body %}
+    <h1>Результаты поиска</h1>
+    {% if results %}
+        {% for result in results %}
+            <div>
+                <p><strong>Имя файла:</strong> {{ result.name }}</p>
+                <p><strong>Ссылка:</strong> {{ result.url }}</p>
+                <hr>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Нет результатов для вашего запроса.</p>
+    {% endif %}
+{% endblock %}

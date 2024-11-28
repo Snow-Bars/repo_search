@@ -38,7 +38,7 @@ def fetch_files_recursive(url, visited=None):
                 'url': full_url
                 })
     
-    return file_info#, catalogs
+    return file_info
 
 def fetch_root_catalogs(url):
     response = requests.get(url)
@@ -51,13 +51,13 @@ def fetch_root_catalogs(url):
 
     for link in soup.find_all('a'):
         href = link.get('href')
-
+                
         if href.endswith('/') and (not href.startswith('.')):
             cat_name = href.strip('/')
             catalogs.append({
                 'catalogue': cat_name
             })
-
+        
     return catalogs
 
 #сохранение данных в json
@@ -69,7 +69,7 @@ def save_file_info(info, storage_path):
 def load_file_info(storage_path='file_data.json'):
     if not os.path.exists(storage_path):
         return []
-
+    
     with open(storage_path, 'r') as f:
         return json.load(f)
 

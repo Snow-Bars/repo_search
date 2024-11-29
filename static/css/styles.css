@@ -16,13 +16,6 @@ background: #424040;
   margin-bottom: 60px;
 }
 
-.table th {
-  position: sticky;
-  top: 0;
-  background-color: #424040;
-  z-index: 10;
-}
-
 .container {
   width: 100%;
   padding-right: 15px;
@@ -36,20 +29,7 @@ background: #424040;
   width: 100%;
   margin-bottom: 1rem;
   border-collapse: collapse;
-}
-
-.table th,
-.table td {
-  padding: 0.75rem;
-  border: 1px solid #424040;
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.table-bordered {
-  border: 1px solid #424040;
+  background: transparent;
 }
 
 .table-responsive {
@@ -57,6 +37,71 @@ background: #424040;
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-container {
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Improve table responsiveness */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-container {
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.table th {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.table-striped tbody tr:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 /* HEADER */
@@ -71,11 +116,10 @@ background: #424040;
   z-index: 1000;
   background: rgb(66, 64, 64);
   -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
-      box-shadow: 0 5xp 25px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* BODY */
-
 
 /* FOOTER */
 .footer_pos {
@@ -264,4 +308,52 @@ select:-moz-focusring {
   cursor: not-allowed;
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
+}
+
+/* Analysis Controls */
+.analysis-controls {
+    
+    padding: 20px;
+    background: rgb(66, 64, 64);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.date-selector {
+    margin-bottom: 20px;
+}
+
+.date-selector label {
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 10px;
+}
+
+.date-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px;
+    margin-right: 20px;
+}
+
+.date-input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.analysis-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.analysis-buttons button {
+    flex: 1;
+}
+
+#results h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 20px 0;
+    font-size: 1.5em;
 }

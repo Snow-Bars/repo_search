@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Анализ логов
+{% endblock %}
+
+{% block header %}
+    <br>
+    <br>
+{% endblock %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    <div class="analysis-controls">
+        <div class="date-selector">
+            <form action="{{ url_for('analyze_content') }}" method="post">
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" class="date-input">
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" class="date-input">
+                <button class="button-18" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

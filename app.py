@@ -328,7 +328,6 @@ def repo_analyse():
 @app.route('/repo_list')
 def repo_list():
     results = load_file_info(reponames_list)
-    print(results)
     table_html = '<table class="table table-striped table-bordered">'
     table_html += '<thead><tr>'
     headers = ['reponame']

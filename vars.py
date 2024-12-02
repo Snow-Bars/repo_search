@@ -6,3 +6,4 @@ files_list = 'file_data.json' #json-файл для сохранения спи�
 res_folder = 'F:\\Projects\\Search\\searchenv\\nginx\\parsed\\' #папка для хранения логов nginx для парсинга
 nginx_log_folder = 'F:\\Projects\\Search\\searchenv\\nginx\\logs\\' #файл логов nginx для парсинга
 res_file = 'parsed-logs.json' #json-файл для сохранения разобранных логов
+reponames_list = 'reponames_list.json' #json-файл для сохранения имен репозитариев

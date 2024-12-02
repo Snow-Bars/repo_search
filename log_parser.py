@@ -30,7 +30,6 @@ def get_res(filename):
                 'package_path': package_path,
                 'package_name': package_name
                 })
-    #print(parser_result)
     return parser_result
 
 def save_file_info(info, results_folder, storage_path):

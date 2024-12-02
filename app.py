@@ -1,10 +1,11 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import json
 import os
-from vars import base_url, base_catalogs, files_list, res_folder
+from vars import base_url, base_catalogs, files_list, reponames_list
 import subprocess, sys
 import csv
 from io import StringIO
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
@@ -37,7 +38,6 @@ def calculate_relevance_score(filename, query_terms):
     return total_score
 
 def csv_to_html_table(csv_content):
-    output = StringIO()
     csv_reader = csv.reader(StringIO(csv_content))
     html = ['<table class="table table-striped table-bordered">']
     header = next(csv_reader)
@@ -148,45 +148,204 @@ def vulnerabilities():
 
 @app.route('/logs')
 def logs():
-    try:
-        search_query = request.form.get('query', '').strip().lower()
-        parsed_logs_dir = os.path.join(os.path.dirname(__file__), 'nginx', 'parsed')
-        table_html = '<table class="table table-striped table-bordered">'
-        table_html += '<thead><tr>'
-        headers = ['Дата', 'Время', 'Аджрес источника', 'Имя репозитария', 'Запрошенный путь', 'Запрошенный файл']
-        
-        for header in headers:
-            table_html += f'<th>{header}</th>'
+    return render_template('log_analitics.html')
 
-        table_html += '</tr></thead><tbody>'
-        json_files = [f for f in os.listdir(parsed_logs_dir) if f.endswith('.json')]
-        
-        for json_file in sorted(json_files, reverse=True):
-            file_path = os.path.join(parsed_logs_dir, json_file)
-            
-            with open(file_path, 'r', encoding='utf-8') as f:
-                logs_data = json.load(f)
+@app.route('/analyze_sources', methods=['POST'])
+def analyze_sources():
+    results, json_files, days = [], [], []
+    source_counts = {}
+    parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+    if request.form.get('start_date', '') and request.form.get('end_date', ''):
+        search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
+        search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
+        date_range = 'Начиная с ' + search_start_date.date().strftime('%Y-%m-%d') + ', и заканчивая ' + search_end_date.date().strftime('%Y-%m-%d')
+        day = [search_start_date + timedelta(days=x) for x in range((search_end_date - search_start_date).days + 1)]
+    
+        for i in day:
+            days.append(i.date().strftime('%Y-%m-%d') + '_parsed-logs.json')
+
+        json_files = list(set(days) & set(os.listdir(parsed_logs_dir)))
+    else:
+        date_range = 'все время'
+        json_files = os.listdir(parsed_logs_dir)
+
+    for json_file in json_files:
+        log_file = os.path.join(parsed_logs_dir, json_file)
+        with open(log_file, 'r') as f:
+            logs = json.load(f)
+            for log in logs:
+                source_address = log.get('source_address')
+                if source_address:
+                    source_counts[source_address] = source_counts.get(source_address, 0) + 1
+    
+    for source, count in source_counts.items():
+        results.append({
+            'source_address': source,
+            'count': count
+        })
+
+    results.sort(key=lambda x: x['count'], reverse=True)
+    table_html = '<table class="table table-striped table-bordered">'
+    table_html += '<thead><tr>'
+    headers = ['source_address', 'count']
+
+    for header in headers:
+        table_html += f'<th>{header}</th>'
+    
+    table_html += '</tr></thead><tbody>'
+
+    for entry in results:
+        table_html += '<tr>'
+        table_html += f'<td>{entry.get("source_address", "")}</td>'
+        table_html += f'<td>{entry.get("count", "")}</td>'
+        table_html += '</tr>'
+    
+    table_html += '</tbody></table>'
+    return render_template('sourses_ip.html', table=table_html, date_range=date_range)
+
+@app.route('/requests')
+def requests():
+    return render_template('requests_analitics.html')
+
+@app.route('/analyze_content', methods=['POST'])
+def analyze_content():
+    results, json_files, days = [], [], []
+    content_counts = {}
+    parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+    if request.form.get('start_date', '') and request.form.get('end_date', ''):
+        search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
+        search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
+        date_range = 'Начиная с ' + search_start_date.date().strftime('%Y-%m-%d') + ', и заканчивая ' + search_end_date.date().strftime('%Y-%m-%d')
+        day = [search_start_date + timedelta(days=x) for x in range((search_end_date - search_start_date).days + 1)]
+    
+        for i in day:
+            days.append(i.date().strftime('%Y-%m-%d') + '_parsed-logs.json')
+
+        json_files = list(set(days) & set(os.listdir(parsed_logs_dir)))
+    else:
+        date_range = 'все время'
+        json_files = os.listdir(parsed_logs_dir)
+
+    for json_file in json_files:
+        log_file = os.path.join(parsed_logs_dir, json_file)
+        with open(log_file, 'r') as f:
+            logs = json.load(f)
+            for log in logs:
+                package_name = log.get('package_name')
+                package_path = log.get('package_path')
                 
-                for entry in logs_data:
-                    if search_query:
-                        entry_text = ' '.join(str(v) for v in entry.values()).lower()
-                        if search_query not in entry_text:
-                            continue
-                    
-                    table_html += '<tr>'
-                    table_html += f'<td>{entry.get("date", "")}</td>'
-                    table_html += f'<td>{entry.get("time", "")}</td>'
-                    table_html += f'<td>{entry.get("source_address", "")}</td>'
-                    table_html += f'<td>{entry.get("repo_name", "")}</td>'
-                    table_html += f'<td>{entry.get("package_path", "")}</td>'
-                    table_html += f'<td>{entry.get("package_name", "")}</td>'
-                    table_html += '</tr>'
-        
-        table_html += '</tbody></table>'
-        return render_template('logs.html', table=table_html, search_query=search_query)
-        
-    except Exception as e:
-        return f'Error: {str(e)}', 500
+                if all([package_name, package_path]):
+                    key = (package_name, package_path)
+                    content_counts[key] = content_counts.get(key, 0) + 1
+    
+    for (pkg_name, pkg_path), count in content_counts.items():
+        results.append({
+            'package_name': pkg_name,
+            'package_path': pkg_path,
+            'count': count
+        })
+    
+    results.sort(key=lambda x: x['count'], reverse=True)
+    table_html = '<table class="table table-striped table-bordered">'
+    table_html += '<thead><tr>'
+    headers = ['package name', 'package path', 'count']
 
+    for header in headers:
+        table_html += f'<th>{header}</th>'
+    
+    table_html += '</tr></thead><tbody>'
+
+    for entry in results:
+        table_html += '<tr>'
+        table_html += f'<td>{entry.get("package_name", "")}</td>'
+        table_html += f'<td>{entry.get("package_path", "")}</td>'
+        table_html += f'<td>{entry.get("count", "")}</td>'
+        table_html += '</tr>'
+    
+    table_html += '</tbody></table>'
+
+    return render_template('requests_table.html', table=table_html, date_range=date_range)
+
+@app.route('/repo_requests')
+def repo_requests():
+    return render_template('repo_requests.html')
+
+@app.route('/repo_analyse', methods=['POST'])
+def repo_analyse():
+    results, json_files, days = [], [], []
+    content_counts = {}
+    parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+    if request.form.get('start_date', '') and request.form.get('end_date', ''):
+        search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
+        search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
+        date_range = 'Начиная с ' + search_start_date.date().strftime('%Y-%m-%d') + ', и заканчивая ' + search_end_date.date().strftime('%Y-%m-%d')
+        day = [search_start_date + timedelta(days=x) for x in range((search_end_date - search_start_date).days + 1)]
+    
+        for i in day:
+            days.append(i.date().strftime('%Y-%m-%d') + '_parsed-logs.json')
+
+        json_files = list(set(days) & set(os.listdir(parsed_logs_dir)))
+    else:
+        date_range = 'все время'
+        json_files = os.listdir(parsed_logs_dir)
+
+    for json_file in json_files:
+        log_file = os.path.join(parsed_logs_dir, json_file)
+        with open(log_file, 'r') as f:
+            logs = json.load(f)
+            for log in logs:
+                package_path = log.get('package_path')
+                repo_name = package_path.split('/')[2]
+                if repo_name:
+                    content_counts[repo_name] = content_counts.get(repo_name, 0) + 1
+    
+    for repo_name, count in content_counts.items():
+        results.append({
+            'repo_name': repo_name,
+            'count': count
+        })
+    
+    results.sort(key=lambda x: x['count'], reverse=True)
+    table_html = '<table class="table table-striped table-bordered">'
+    table_html += '<thead><tr>'
+    headers = ['repo_name', 'count']
+
+    for header in headers:
+        table_html += f'<th>{header}</th>'
+    
+    table_html += '</tr></thead><tbody>'
+
+    for entry in results:
+        table_html += '<tr>'
+        table_html += f'<td>{entry.get("repo_name", "")}</td>'
+        table_html += f'<td>{entry.get("count", "")}</td>'
+        table_html += '</tr>'
+    
+    table_html += '</tbody></table>'
+
+    return render_template('repo_analyse.html', table=table_html, date_range=date_range)
+
+@app.route('/repo_list')
+def repo_list():
+    results = load_file_info(reponames_list)
+    print(results)
+    table_html = '<table class="table table-striped table-bordered">'
+    table_html += '<thead><tr>'
+    headers = ['reponame']
+
+    for header in headers:
+        table_html += f'<th>{header}</th>'
+    
+    table_html += '</tr></thead><tbody>'
+
+    for entry in results:
+        table_html += '<tr>'
+        table_html += f'<td>{entry.get("reponame", "")}</td>'
+        table_html += '</tr>'
+    
+    table_html += '</tbody></table>'
+
+    return render_template('repo_list.html', table=table_html)
+    
 if __name__ == '__main__':
     app.run(debug=True)

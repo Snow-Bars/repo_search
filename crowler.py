@@ -60,6 +60,26 @@ def fetch_root_catalogs(url):
         
     return catalogs
 
+def load_file_info(storage_path):
+    if not os.path.exists(storage_path):
+        return []
+    with open(storage_path, 'r') as f:
+        return json.load(f)
+
+def fetch_reponames(file, url):
+    unique_reponames = set()
+    reponames = []
+    for f in load_file_info(file):
+        reponame = f.get('url').removeprefix(url).split('/')[1]
+        print(reponame)
+        if reponame not in unique_reponames:
+            unique_reponames.add(reponame)
+            reponames.append({
+                'reponame': reponame
+            })
+
+    return reponames
+
 #сохранение данных в json
 def save_file_info(info, storage_path):
     with open(storage_path, 'w') as f:
@@ -78,5 +98,7 @@ def run_scraper():
     save_file_info(file_info,files_list)
     catalogs = fetch_root_catalogs(base_url)
     save_file_info(catalogs,base_catalogs)
+    reponames = fetch_reponames(files_list, base_url)
+    save_file_info(reponames,reponames_list)
 
 run_scraper()

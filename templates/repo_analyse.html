@@ -12,7 +12,7 @@
 {% block body %}
     <div class="analysis-controls">
         <div class="date-selector">
-            <form action="{{ url_for('analyze_content') }}" method="post">
+            <form action="{{ url_for('repo_analyse') }}" method="post">
                 <label for="start_date">Start Date:</label>
                 <input type="date" id="start_date" name="start_date" class="date-input">
                 <label for="end_date">End Date:</label>
@@ -21,7 +21,7 @@
             </form>
         </div>
     </div>
-    <h1>Запрашиваемые файлы за: {{ date_range }}</h1>
+    <h1>Обращение к репозитариям за: {{ date_range }}</h1>
     <div class="table-container">
         <br>
         <div class="table-responsive">

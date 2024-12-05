@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <br>
+    <br>
+{% endblock %}
+
+{% block title %}
+    Анализ логов
+{% endblock %}
+
+{% block body %}
+    <div class="table-container">
+        <div class="table-responsive">
+            {{ table | safe }}
+        </div>
+    </div>
+{% endblock %}

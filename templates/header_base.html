@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<header>
+    <br>
+    <br>
+    <h1>Поиск файлов</h1>
+    <form action="/search" method="post">
+        <label for="root_dir">Корневой каталог:</label>
+        <select class="classic" name="root_dir">
+            <option value="">Все каталоги</option>
+            {% for root_dir in root_dirs %}
+                <option value="{{ root_dir }}">{{ root_dir }}</option>
+            {% endfor %}
+        </select>
+        <input placeholder="Введите имя файла.." id="input" class="input" name="query" type="text"/>
+        <button class="button-18" type="submit">Поиск</button>
+    </form>
+</header>
+{% endblock %}

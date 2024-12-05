@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %} {% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body class="dark_theme">
+        <div class="container">
+            <div class="header_pos">
+                <header>
+                    <a style="float:right" href="{{ url_for('index') }}">
+                        <button class="button-18">Home</button>
+                    </a>
+                    <a style="float:right; margin-right: 10px;" href="{{ url_for('vulnerabilities') }}">
+                        <button class="button-18">Vulnerabilities</button>
+                    </a>
+                    <a style="float:right; margin-right: 10px;" href="{{ url_for('logs') }}">
+                        <button class="button-18">Sources analitics</button>
+                    </a>
+                    <a style="float:right; margin-right: 10px;" href="{{ url_for('requests') }}">
+                        <button class="button-18">Requests analitics</button>
+                    </a>
+                    <a style="float:right; margin-right: 10px;" href="{{ url_for('repo_requests') }}">
+                        <button class="button-18">repo_requests</button>
+                    </a>
+                    <a style="float:right; margin-right: 10px;" href="{{ url_for('repo_list') }}">
+                        <button class="button-18">repo list</button>
+                    </a>
+                </header>
+            {% block header %} {% endblock %}
+            </div>
+            {% block body %} {% endblock %}
+        </div>
+        <div class="container footer_pos dark_theme">
+            <br>
+            <span class="dark_theme"> 2024 ВТБ UNIX</span> <span style="float:right"><a href="mailto:unix-repository@vtb.ru">unix-repository@vtb.ru</a></span>
+        </div>
+    </body>
+</html>

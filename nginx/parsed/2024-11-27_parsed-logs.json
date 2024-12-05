@@ -1,0 +1,42 @@
+[
+    {
+        "date": "2024-11-27",
+        "time": "12:25:44",
+        "source_address": "10.10.10.11",
+        "repo_name": "stages_astra",
+        "package_path": "/stages_astra/current/repo/main/r/resolv_1.7.all.deb",
+        "package_name": "resolv_1.7.all.deb"
+    },
+    {
+        "date": "2024-11-27",
+        "time": "12:25:45",
+        "source_address": "10.10.10.10",
+        "repo_name": "stages_astra",
+        "package_path": "/stages_astra/current/repo/main/r/resolv_1.7.all.deb",
+        "package_name": "resolv_1.7.all.deb"
+    },
+    {
+        "date": "2024-11-27",
+        "time": "12:25:46",
+        "source_address": "10.10.10.10",
+        "repo_name": "stages_astra",
+        "package_path": "/stages_astra/current/repo/main/r/resolv_1.7.all.deb",
+        "package_name": "resolv_1.7.all.deb"
+    },
+    {
+        "date": "2024-11-27",
+        "time": "12:25:47",
+        "source_address": "10.10.10.10",
+        "repo_name": "stages_astra",
+        "package_path": "/stages_astra/current/repo/main/r/resolv_1.7.all.deb",
+        "package_name": "resolv_1.7.all.deb"
+    },
+    {
+        "date": "2024-11-27",
+        "time": "12:25:48",
+        "source_address": "10.10.10.10",
+        "repo_name": "stages_astra",
+        "package_path": "/stages_astra/current/repo/main/r/resolvers1212_1.7.all.deb",
+        "package_name": "resolvers1212_1.7.all.deb"
+    }
+]

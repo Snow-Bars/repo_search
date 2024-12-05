@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <br>
+    <br>
+{% endblock %}
+
+{% block title %}
+    Анализ запросов по source IP
+{% endblock %}
+
+{% block body %}
+    <div class="analysis-controls">
+        <div class="date-selector">
+            <form action="{{ url_for('analyze_content') }}" method="post">
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" class="date-input">
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" class="date-input">
+                <button class="button-18" type="submit">Analyse</button>
+            </form>
+        </div>
+    </div>
+    <h1>Запрашиваемые файлы за: {{ date_range }}</h1>
+    <div class="table-container">
+        <br>
+        <div class="table-responsive">
+            {{ table | safe }}
+        </div>
+    </div>
+{% endblock %}

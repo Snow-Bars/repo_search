@@ -1,3 +1,0 @@
-[2024-12-27T12:25:44+03:00] 10.10.10.11 - - GET /stages_astra/current/repo/main/r/resolv_1.7.all.deb HTTP/1.1 200 74072 - [Debian APT-HTTP/1.3 (1.4.2.5.1)] -
-[2024-12-27T12:25:45+03:00] 10.10.10.11 - - GET /stages_astra/current/repo/main/r/resolv_1.7.all.deb HTTP/1.1 200 74072 - [Debian APT-HTTP/1.3 (1.4.2.5.1)] -
-[2024-12-27T12:25:46+03:00] 10.10.10.10 - - GET /stages_astra/current/repo/main/r/resolv_1.7.all.deb HTTP/1.1 200 74072 - [Debian APT-HTTP/1.3 (1.4.2.5.1)] -

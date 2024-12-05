@@ -1,6 +1,6 @@
 import json
 import os
-from vars import nginx_log_folder, res_file, res_folder
+from vars import *
 
 def pars_log_line(log_line):
     date, log_line, trash = log_line.split('] ')

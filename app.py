@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 import json
 import os
-from vars import base_url, base_catalogs, files_list, reponames_list
-import subprocess, sys
+from vars import *
 import csv
 from io import StringIO
 from datetime import datetime, timedelta

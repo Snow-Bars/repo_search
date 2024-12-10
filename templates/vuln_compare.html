@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <br>
+    <br>
+{% endblock %}
+
+{% block body %}
+    <div class="search-form">
+        <a style="float:left" href="{{ url_for('vulnerabilities') }}">
+            <button class="button-18">Show all fixed vuln</button>
+        </a>
+        <a style="float:left; margin-left: 10px;" href="{{ url_for('upload_page') }}">
+            <button class="button-18">Search by xlsx</button>
+        </a>
+    </div>
+    <div class="drop-zone">
+        <div class="drop-zone__prompt">Drop Excel file here or click to upload</div>
+        <input type="file" name="file" class="drop-zone__input" accept=".xls,.xlsx">
+    </div>
+    <div class="error-message"></div>
+    <div id="file-content"></div>
+
+
+
+    <script>
+        document.querySelectorAll(".drop-zone").forEach(dropZone => {
+            const input = dropZone.querySelector(".drop-zone__input");
+            const prompt = dropZone.querySelector(".drop-zone__prompt");
+            const errorMessage = document.querySelector(".error-message");
+            const fileContent = document.getElementById("file-content");
+
+            dropZone.addEventListener("click", (e) => {
+                input.click();
+            });
+
+            input.addEventListener("change", (e) => {
+                if (input.files.length) {
+                    uploadFile(input.files[0]);
+                }
+            });
+
+            dropZone.addEventListener("dragover", (e) => {
+                e.preventDefault();
+                dropZone.classList.add("drop-zone--over");
+            });
+
+            ["dragleave", "dragend"].forEach(type => {
+                dropZone.addEventListener(type, (e) => {
+                    dropZone.classList.remove("drop-zone--over");
+                });
+            });
+
+            dropZone.addEventListener("drop", (e) => {
+                e.preventDefault();
+                
+                if (e.dataTransfer.files.length) {
+                    input.files = e.dataTransfer.files;
+                    uploadFile(e.dataTransfer.files[0]);
+                }
+
+                dropZone.classList.remove("drop-zone--over");
+            });
+
+            function uploadFile(file) {
+                if (!file.name.match(/\.(xls|xlsx)$/i)) {
+                    errorMessage.textContent = "Please upload only Excel files (.xls or .xlsx)";
+                    errorMessage.style.display = "block";
+                    return;
+                }
+
+                errorMessage.style.display = "none";
+                const formData = new FormData();
+                formData.append("file", file);
+
+                fetch("/upload", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        errorMessage.textContent = data.error;
+                        errorMessage.style.display = "block";
+                    } else {
+                        fileContent.textContent = data.content;
+                        fileContent.style.display = "block";
+                        prompt.textContent = "File uploaded successfully!";
+                    }
+                })
+                .catch(error => {
+                    errorMessage.textContent = "An error occurred while uploading the file";
+                    errorMessage.style.display = "block";
+                });
+            }
+        });
+    </script>
+
+
+
+
+{% endblock %}

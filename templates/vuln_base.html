@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <br>
+    <br>
+{% endblock %}
+
+{% block body %}
+    <div class="search-form">
+        <a style="float:left" href="{{ url_for('vulnerabilities') }}">
+            <button class="button-18">Show all fixed vuln</button>
+        </a>
+        <a style="float:left; margin-left: 10px;" href="{{ url_for('upload_page') }}">
+            <button class="button-18">Search by xlsx</button>
+        </a>
+    </div>
+{% endblock %}

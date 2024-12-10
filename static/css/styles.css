@@ -5,7 +5,8 @@
 }
 
 .search-form {
-background: #424040;
+  background: #424040;
+  height: 80px; 
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -356,4 +357,50 @@ select:-moz-focusring {
     color: rgba(255, 255, 255, 0.9);
     margin: 20px 0;
     font-size: 1.5em;
+}
+
+/* DROP ZONE */
+.drop-zone {
+  width: 100%;
+  max-width: 500px;
+  height: 80px;
+  padding: 25px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.drop-zone--over {
+  border-color: #000;
+}
+
+.drop-zone__prompt {
+  margin-bottom: 15px;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+#file-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  display: none;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+  display: none;
 }

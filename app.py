@@ -1,15 +1,15 @@
 from flask import Flask, render_template, request, jsonify
 import json
 import os
-from vars import base_url, base_catalogs, files_list, reponames_list
-import subprocess, sys
+from vars import *
 import csv
 from io import StringIO
 from datetime import datetime, timedelta
+import pandas as pd
+import re
 
 app = Flask(__name__)
 
-#функция загрузки данных о пакетах
 def load_file_info(storage_path):
     if not os.path.exists(storage_path):
         return []
@@ -62,11 +62,9 @@ def csv_to_html_table(csv_content):
 
 @app.route('/')
 def index():
-    #загруазка информацию о пакетах
     file_info = load_file_info(base_catalogs)
-
-    #извлечение корневых каталогов
     root_dirs = set()
+
     for file in file_info:
         root_dir = file['catalogue']
         root_dirs.add(root_dir)
@@ -77,19 +75,18 @@ def index():
 def search():
     root_dirs = set()
     file_cats = load_file_info(base_catalogs)
+
     for file in file_cats:
         root_dir = file['catalogue']
         root_dirs.add(root_dir)
+    
     query = request.form.get('query', '').strip()
     selected_root = request.form.get('root_dir', '')
-    #загруазка информацию о пакетах
     file_info = load_file_info(files_list)
 
-    #фильтрация по корневому каталогу
     if selected_root:
         file_info = [f for f in file_info if f['url'].startswith(base_url+selected_root)]
 
-    #поиск с сортировкой по релевантности
     if query:
         query_terms = [term.strip() for term in query.split() if term.strip()]
         matching_files = []
@@ -107,44 +104,41 @@ def search():
 
 @app.route('/vuln', methods=['GET', 'POST'])
 def vulnerabilities():
-    try:
-        csv_path = os.path.join(os.path.dirname(__file__), 'vuln.csv')
+    csv_path = os.path.join(os.path.dirname(__file__), 'vuln.csv')
 
-        with open(csv_path, 'r', encoding='utf-8') as f:
-            csv_content = f.read()
-        
-        csv_data = list(csv.reader(StringIO(csv_content)))
-        headers = csv_data[0]
-        rows = csv_data[1:]
-        search_query = request.form.get('query', '').lower()
+    with open(csv_path, 'r', encoding='utf-8') as f:
+        csv_content = f.read()
+    
+    csv_data = list(csv.reader(StringIO(csv_content)))
+    headers = csv_data[0]
+    rows = csv_data[1:]
+    search_query = request.form.get('query', '').lower()
 
-        if search_query and request.method == 'POST':
-            filtered_rows = []
-            for row in rows:
-                if any(search_query in cell.lower() for cell in row):
-                    filtered_rows.append(row)
-            rows = filtered_rows
-        
-        table_html = '<table class="table table-striped table-bordered">'
-        table_html += '<thead><tr>'
-
-        for header in headers:
-            table_html += f'<th>{header}</th>'
-
-        table_html += '</tr></thead>'
-        table_html += '<tbody>'
-
+    if search_query and request.method == 'POST':
+        filtered_rows = []
         for row in rows:
-            table_html += '<tr>'
-            for cell in row:
-                table_html += f'<td>{cell}</td>'
-            table_html += '</tr>'
+            if any(search_query in cell.lower() for cell in row):
+                filtered_rows.append(row)
+        rows = filtered_rows
+    
+    table_html = '<table class="table table-striped table-bordered">'
+    table_html += '<thead><tr>'
 
-        table_html += '</tbody></table>'
-        
-        return render_template('vulnerabilities.html', table=table_html, search_query=search_query)
-    except Exception as e:
-        return f'Error: {str(e)}', 500
+    for header in headers:
+        table_html += f'<th>{header}</th>'
+
+    table_html += '</tr></thead>'
+    table_html += '<tbody>'
+
+    for row in rows:
+        table_html += '<tr>'
+        for cell in row:
+            table_html += f'<td>{cell}</td>'
+        table_html += '</tr>'
+
+    table_html += '</tbody></table>'
+    
+    return render_template('vulnerabilities.html', table=table_html, search_query=search_query)
 
 @app.route('/logs')
 def logs():
@@ -155,6 +149,7 @@ def analyze_sources():
     results, json_files, days = [], [], []
     source_counts = {}
     parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+
     if request.form.get('start_date', '') and request.form.get('end_date', ''):
         search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
         search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
@@ -171,10 +166,13 @@ def analyze_sources():
 
     for json_file in json_files:
         log_file = os.path.join(parsed_logs_dir, json_file)
+
         with open(log_file, 'r') as f:
             logs = json.load(f)
+        
             for log in logs:
                 source_address = log.get('source_address')
+        
                 if source_address:
                     source_counts[source_address] = source_counts.get(source_address, 0) + 1
     
@@ -212,6 +210,7 @@ def analyze_content():
     results, json_files, days = [], [], []
     content_counts = {}
     parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+
     if request.form.get('start_date', '') and request.form.get('end_date', ''):
         search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
         search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
@@ -228,8 +227,10 @@ def analyze_content():
 
     for json_file in json_files:
         log_file = os.path.join(parsed_logs_dir, json_file)
+
         with open(log_file, 'r') as f:
             logs = json.load(f)
+
             for log in logs:
                 package_name = log.get('package_name')
                 package_path = log.get('package_path')
@@ -275,6 +276,7 @@ def repo_analyse():
     results, json_files, days = [], [], []
     content_counts = {}
     parsed_logs_dir = os.path.join(app.root_path, 'nginx', 'parsed')
+
     if request.form.get('start_date', '') and request.form.get('end_date', ''):
         search_start_date = datetime.strptime(request.form.get('start_date', ''),'%Y-%m-%d')
         search_end_date = datetime.strptime(request.form.get('end_date', ''),'%Y-%m-%d')
@@ -291,11 +293,14 @@ def repo_analyse():
 
     for json_file in json_files:
         log_file = os.path.join(parsed_logs_dir, json_file)
+
         with open(log_file, 'r') as f:
             logs = json.load(f)
+
             for log in logs:
                 package_path = log.get('package_path')
                 repo_name = package_path.split('/')[2]
+
                 if repo_name:
                     content_counts[repo_name] = content_counts.get(repo_name, 0) + 1
     
@@ -346,5 +351,54 @@ def repo_list():
 
     return render_template('repo_list.html', table=table_html)
     
+@app.route('/vuln_base')
+def vuln_base():
+    return render_template('vuln_base.html')
+
+@app.route('/upload_page')
+def upload_page():
+    return render_template('vuln_compare.html')
+
+@app.route('/upload', methods=['POST'])
+def upload():
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'})
+    
+    file = request.files['file']
+    if file.filename == '':
+        return jsonify({'error': 'No selected file'})
+        
+    if not file.filename.endswith(('.xls', '.xlsx')):
+        return jsonify({'error': 'Invalid file format. Please upload .xls or .xlsx files only'})
+    
+    try:
+        df = pd.read_excel(file)
+        content = df.to_string()
+        csv_path = os.path.join(os.path.dirname(__file__), 'vuln.csv')
+        fixed, unfixed, result = [], [], []
+        rows = pd.read_csv(csv_path)
+        rows = rows.to_string()
+        rows = re.findall(r"CVE-\d{4}-\d+", rows)
+        cves = re.findall(r"CVE-\d{4}-\d+", content)
+
+        for cve in cves:
+            if cve in rows:
+                fixed.append(cve)
+            else:
+                unfixed.append(cve)
+
+        if fixed:
+            fixed = sorted(set(fixed))
+            result.append('Закрытые уязвисмости: ')
+            result.append(fixed)
+        if unfixed:
+            unfixed = sorted(set(unfixed))
+            result.append(' Незакрытые уязвисмости: ')
+            result.append(unfixed)
+        
+        return jsonify({'content': result})
+    except Exception as e:
+        return jsonify({'error': f'Error processing file: {str(e)}'})
+
 if __name__ == '__main__':
     app.run(debug=True)

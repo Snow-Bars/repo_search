@@ -11,6 +11,7 @@
             <div>
                 <p><strong>Имя файла:</strong> {{ result.name }}</p>
                 <p><strong>Ссылка:</strong> {{ result.url }}</p>
+                <button onclick="navigator.clipboard.writeText ( '{{ result.url }}' )" class="button-18">Copy link</button>
                 <hr>
             </div>
         {% endfor %}
